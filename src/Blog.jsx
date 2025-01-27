@@ -6,18 +6,12 @@ const Blog = () => {
   const blogPosts = [
     {
       id: 1,
-      title: "My Experience with React",
-      preview: "React has been an amazing journey...",
-      content: "Full content here...",
+      title: "Hardware Designing Languages",
+      preview: "Interested in HDLs. !",
+      content: "",
       featuredImage: "/path/to/featured-image-1.jpg"
-    },
-    {
-      id: 2,
-      title: "Building ML Models",
-      preview: "Machine learning is fascinating...",
-      content: "Full content here...",
-      featuredImage: "/path/to/featured-image-2.jpg"
     }
+
   ];
 
   return (
