@@ -9,7 +9,7 @@ const Portfolio = () => {
       const id = location.hash.replace('#', '');
       scrollToSection(id);
     } else {
-      if (location.pathname === '/work') {
+      if (location.pathname === '/sachumanpage/work') {
         scrollToSection('work');
       }
     }
@@ -30,8 +30,8 @@ const Portfolio = () => {
           <div className="flex justify-between items-center">
             <Link to="/" className="text-2xl font-bold text-blue-600">Sachin Jain</Link>
             <div className="space-x-6">
-              <Link to="/work" onClick={() => scrollToSection('work')} className="text-blue-600 hover:text-blue-800">Work</Link>
-              <Link to="/work#projects" onClick={() => scrollToSection('projects')} className="text-blue-600 hover:text-blue-800">Projects</Link>
+              <Link to="/sachumanpage/work" onClick={() => scrollToSection('work')} className="text-blue-600 hover:text-blue-800">Work</Link>
+              <Link to="/sachumanpage/work#projects" onClick={() => scrollToSection('projects')} className="text-blue-600 hover:text-blue-800">Projects</Link>
             </div>
           </div>
         </div>

@@ -7,8 +7,8 @@ const Home = () => {
       <div className="text-center">
         <h1 className="text-6xl font-bold text-blue-600 mb-22">Sachin Jain</h1>
         <div className="space-x-6">
-          <Link to="/work" className="text-blue-600 hover:text-blue-800 text-xl">Experience</Link>
-          <Link to="/blog" className="text-blue-600 hover:text-blue-800 text-xl">Blog</Link>
+          <Link to="/sachumanpage/work" className="text-blue-600 hover:text-blue-800 text-xl">Experience</Link>
+          <Link to="/sachumanpage/blog" className="text-blue-600 hover:text-blue-800 text-xl">Blog</Link>
         </div>
       </div>
       <div className="flex items-center justify-center">
