@@ -10,7 +10,7 @@ const Portfolio = () => {
       const id = location.hash.replace('#', '');
       scrollToSection(id);
     } else {
-      if (location.pathname === '/sachumanpage/work') {
+      if (location.pathname === '/work') {
         scrollToSection('work');
       }
     }

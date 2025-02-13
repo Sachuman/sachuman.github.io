@@ -10,23 +10,34 @@ export default function Navbar() {
             <Link to="/" className="text-xl text-blue-900 pt-4 pb-4 font-bold ">Sachin Jain</Link>
             <div className="flex justify-evenly space-x-6 w-full max-w-md">
               <Link 
-                to="/sachumanpage/work" 
+                to="/work" 
                 className="text-sm text-blue-600 hover:text-blue-800"
               >
                 Work
               </Link>
               <Link 
-                to="/sachumanpage/work#projects" 
+                to="/work#projects" 
                 className="text-sm text-blue-600 hover:text-blue-800"
               >
                 Projects
               </Link>
               <Link 
-                to="/sachumanpage/blog" 
+                to="/blog" 
                 className="text-sm text-blue-600 hover:text-blue-800"
               >
                 Blog
               </Link>
+
+             
+              <a
+                href="../src/img/sachinresume.pdf"
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-sm text-blue-600 hover:text-blue-800">
+                  Resume
+              </a>
+
+
               <div className="text-sm text-blue-600 hover:text-blue-800">
                 <a href="https://github.com/Sachuman" target="_blank">Github</a>
               </div>

@@ -8,8 +8,8 @@ const Home = () => {
       <div className="text-center">
         <h1 className="text-7xl font-bold text-blue-600 mb-22">Sachin Jain</h1>
         <div className="space-x-48">
-          <Link to="/sachumanpage/work" className="text-green-700 hover:text-blue-800 text-5xl">Experience</Link>
-          <Link to="/sachumanpage/blog" className="text-red-400 hover:text-blue-800 text-5xl">Blog</Link>
+          <Link to="/work" className="text-green-700 hover:text-blue-800 text-5xl">Experience</Link>
+          <Link to="/blog" className="text-red-400 hover:text-blue-800 text-5xl">Blog</Link>
         </div>
         </div>
       <div className="flex items-center justify-center">

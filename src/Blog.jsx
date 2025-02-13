@@ -49,7 +49,7 @@ const Blog = () => {
       {/*mapping posts */}
       <section id="blog" className="content-section">
         <div className="relative pt-20 ml-[40%] w-[50%] pr-12">
-          {location.pathname === '/sachumanpage/blog' && (
+          {location.pathname === '/blog' && (
             <>
               <h2 className="text-5xl font-bold text-blue-600 mb-16 pt-16">Blog</h2>
               <div className="space-y-1">
