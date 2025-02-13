@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import React from 'react';
+import resumePDF from '../src/img/sachinresume.pdf';
 
 export default function Navbar() {
 
@@ -30,7 +31,7 @@ export default function Navbar() {
 
              
               <a
-                href="../src/img/sachinresume.pdf"
+                href={resumePDF}
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-sm text-blue-600 hover:text-blue-800">
