@@ -2,7 +2,7 @@
   "name": "mywebpage",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://sachuman.github.io/sachumanpage/#",
+  "homepage": "https://sachuman.github.io/#",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
