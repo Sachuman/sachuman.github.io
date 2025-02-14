@@ -4,6 +4,7 @@ import Portfolio from './Portfolio'
 import Home from './Home';
 import Blog from './Blog'
 import './App.css'
+import Footer from './Footer';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/blog" element={<Blog />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
+      <Footer />
     </Router>
   );
 };
